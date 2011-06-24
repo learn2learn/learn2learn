@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @checkin.user_id %>
+</p>
+
+<p>
+  <b>Activity:</b>
+  <%= @checkin.activity_id %>
+</p>
+
+<p>
+  <b>Checked in at:</b>
+  <%= @checkin.checked_in_at %>
+</p>
+
+<p>
+  <b>Duration:</b>
+  <%= @checkin.duration %>
+</p>
+
+<p>
+  <b>Notes:</b>
+  <%= @checkin.notes %>
+</p>
+
+<p>
+  <b>Tags:</b>
+  <%= @checkin.tags %>
+</p>
+
+
+<%= link_to 'Edit', edit_checkin_path(@checkin) %> |
+<%= link_to 'Back', checkins_path %>

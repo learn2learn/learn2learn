@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user_id: 1
+  activity_id: 1
+  checked_in_at: MyString
+  duration: MyString
+  notes: MyString
+  tags: MyString
+
+two:
+  user_id: 1
+  activity_id: 1
+  checked_in_at: MyString
+  duration: MyString
+  notes: MyString
+  tags: MyString
